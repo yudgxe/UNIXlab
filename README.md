@@ -5,6 +5,7 @@
 Исходник main.cpp, уже скомпилированная out
  * **lab4**  
 Изначально были созданы configure.ac, Makefile.am и src/Makefile, далее следующие команды  
+  
 aclocal  
 autoconf  
 automake --add-missing  
