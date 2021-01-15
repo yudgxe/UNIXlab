@@ -13,5 +13,5 @@ automake --add-missing
 make  
   
 **lab5**  
-Билдим контейнер из корневого католога sudo docker build . -t new
+Билдим контейнер из корневого католога sudo docker build . -t new  
 Запускаем sudo docker run -p 80:80 new python3 /code/manage.py runserver 0.0.0.0:80
