@@ -19,7 +19,7 @@ else
 				TMPFOLDER=`mktemp -d`
 				CURRENTFOLDER=$(pwd)
 				
-				trap "rm -Rf $TMPFOLDER; exit 1" SIGKILL SIGINT SIGHUP SIGTERM
+				trap "rm -Rf $TMPFOLDER; exit 1" SIGINT SIGHUP SIGTERM
 				
 				cp $1 $TMPFOLDER/
 				cd $TMPFOLDER
